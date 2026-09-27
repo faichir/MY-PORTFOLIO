@@ -127,6 +127,8 @@ left: 65%;
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.3);
     text-align: center;
+    transition: 1.5s;
+
 }
 
 .about-card h2 {
