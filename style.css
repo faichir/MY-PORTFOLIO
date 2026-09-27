@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    background: url(/landing\ page.jpeg);
+    background: url(landing\ page.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -26,7 +26,7 @@ justify-content: space-between;
 .nav .logo{
     width: 160px;
     cursor: pointer;
-    margin-top: -3%;
+    margin-top: 0.5%;
     margin-left: -2%;
 }
 
@@ -45,7 +45,7 @@ ul li a {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: blue;
+    color: rgb(40, 4, 241);
     margin-top: -3%;
     transition: .4s ease;
 }
@@ -60,7 +60,7 @@ ul li a:hover{
 
 .info h1{
     font-size: 65px;
-    color: rgb(36,32,30)
+    color: black;
 }
 
 .info h3 {
@@ -92,6 +92,7 @@ height: 60%;
 position: relative;
 right: 100px;
 bottom: 0;
+
 }
 
 .image img{
@@ -101,8 +102,44 @@ bottom: 0;
     transform: translate(-55%);
     bottom: 0;
     transition: 4s ease;
+  
 }
 
 .image :hover.faith{
 left: 65%;
 }
+#about {
+   min-height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 3%;
+   background: rgb(247, 241, 241);
+   padding: 80px 20px;
+   text-align: center;
+   
+}
+.about-card {
+    background: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 50px 45px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.about-card h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #111;
+    padding-bottom: 8px;
+
+}
+
+.about-card p {
+    font-size: 1.16em;
+    color: #444;
+}
+
+
