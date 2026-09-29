@@ -97,7 +97,7 @@ ul li a:hover{
 
 image{
 width: 30%;
-height: 60%;
+height: 30px;
 position: relative;
 right: 100px;
 bottom: 0;
@@ -107,11 +107,12 @@ bottom: 0;
 
 .image img{
     position: absolute;
-    height: 90%;
+    height: 80%;
     left: 80%;
     transform: translate(-55%);
     bottom: 0;
     transition: 4s ease;
+    padding-bottom: 60px;
   
 }
 
@@ -258,3 +259,13 @@ footer {
  footer span {
     color: #f97136;
  }
+
+ /* Hide image on phone */
+@media (max-width: 768px) {
+  .image {
+    display: none !important;
+  }
+}
+
+
+
